@@ -22,7 +22,7 @@ app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist'));
 app.use(express.static(__dirname + '/public/static'));
 
 app.get('/', function(req, res) {
-    res.render("index", {});
+    res.render("optimal", {});
 });
 
 var server = http.listen(2149, function() {

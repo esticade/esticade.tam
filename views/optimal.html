@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>esticade.tam</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/optimal.css">
+    </head>
+
+    <body style="background-image: url('images/hd.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 class="text-center seaGreenText" style="margin-top: 25px; margin-bottom: 15px;">Esticade Testing and Monitoring Instrument</h1>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
+                            <input type="text" class="form-control darkGreenInput" id="emitEvent"
+                                   placeholder="Please fill in event">
+                        </div>
+                        <div class="col-xs-2 col-sm-4 col-md-6 col-lg-6"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div id="error-message"></div>
+                            <div id="json-editor" class="editor"></div>
+                        </div>
+                    </div>
+                    <div class="form-inline">
+                        <div class="col-xs-0 col-sm-0 col-md-0 col-lg-0"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-bottom: 15px;">
+                            <button type="button" id="emit" class="btn btn-primary" onclick="">Emit</button>
+                            <button type="button" id="flush" class="btn" onclick="">Flush</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
+                            <input id="filter" class="form-control darkGreenInput" placeholder="Filter" />
+                        </div>
+                        <div class="col-xs-2 col-sm-4 col-md-6 col-lg-6"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <ul class="list-group" id="esticadeEvents"></ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="js/client.js"></script>
+    </body>
+</html>
