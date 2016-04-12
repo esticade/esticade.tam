@@ -83,4 +83,4 @@ $("#flush").click(function(event) {
     event.preventDefault();
 });
 
-$("#filter").keyup(function (event) {filterResponses();});
+$("#filter").keyup(function (event) {filter();});
