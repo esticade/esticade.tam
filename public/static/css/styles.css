@@ -1,0 +1,14 @@
+div.editor {
+	width: 100%;
+	height: 30%;
+}
+
+.darkGreenInput {
+	color: #FFF;
+	background-color: rgba(0, 20, 0, 0.7);
+}
+
+.seaGreenText {
+	color: #2E8B57;
+    text-shadow: 0 0 5px black;
+}

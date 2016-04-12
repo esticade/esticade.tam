@@ -8,11 +8,11 @@ console.log(colors.yellow("Starting " + serviceName));
 
 var service = require("esticade")(serviceName);
 service.alwaysOn('#', function(event) {
-    var payloadObject = {
+    var payload = {
         service: event.service,
         event: event.name,
         message: event.body
     };
 
-    console.log(colors.green(util.inspect(payloadObject, {showHidden: false, depth: null, colors: false})));
+    console.log(colors.green(util.inspect(payload, {showHidden: false, depth: null, colors: false})));
 });
