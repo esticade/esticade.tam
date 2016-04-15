@@ -4,7 +4,7 @@ var moment = require('moment');
 var socket = require('socket.io-client')();
 var util = require('util');
 var Convert = require('ansi-to-html');
-var convert = new Convert();
+var convert = new Convert({escapeXML: true});
 var Str = require('string');
 var ace = require('brace');
 
