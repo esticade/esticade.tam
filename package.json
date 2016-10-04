@@ -18,7 +18,7 @@
     "colors": "^1.1.2",
     "esticade": "^1.0.7",
     "express": "^4.13.4",
-    "hashids": "^1.0.2",
+    "hashids": "~1.0.2",
     "hogan-express": "^0.5.2",
     "jquery": "^2.2.3",
     "moment": "^2.12.0",
