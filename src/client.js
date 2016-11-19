@@ -1,4 +1,4 @@
-// Esticade.tami client side, needs to be compiled with browserify
+// Esticade.tam client side, needs to be compiled with browserify
 $ = jQuery = require('jquery');
 var moment = require('moment');
 var socket = require('socket.io-client')();

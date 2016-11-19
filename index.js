@@ -1,5 +1,5 @@
-// Esticade.tami - Esticate Testing and Monitoring Instrument
-var serviceName = "Esticade.tami";
+// Esticade.tam - Esticate Testing and Monitoring Instrument
+var serviceName = "Esticade.tam";
 var moment = require('moment');
 var util = require('util');
 const chalk = require('chalk');
