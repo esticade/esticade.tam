@@ -8,10 +8,9 @@
 - Install [Node.js](https://nodejs.org/en/)
 - Install [RabbitMQ](https://www.rabbitmq.com/)
 
-Now you need to install browserify and download dependencies, run following commands:
+Next install dependencies, run following command:
 
 ``` bash
-npm install -g browserify
 npm install
 ```
 
